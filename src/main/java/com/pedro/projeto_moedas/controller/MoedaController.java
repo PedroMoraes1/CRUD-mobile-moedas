@@ -46,6 +46,7 @@ public class MoedaController {
                     moeda.setPais(novaMoeda.getPais());
                     moeda.setAno(novaMoeda.getAno());
                     moeda.setImagemUrl(novaMoeda.getImagemUrl());
+                    moeda.setPreco(novaMoeda.getPreco()); // Corrigido aqui
                     return ResponseEntity.ok(moedaRepository.save(moeda));
                 }).orElse(ResponseEntity.notFound().build());
     }

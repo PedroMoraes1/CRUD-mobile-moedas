@@ -1,4 +1,3 @@
-// service/MoedaService.java
 package com.pedro.projeto_moedas.service;
 
 import com.pedro.projeto_moedas.model.Moeda;
@@ -39,6 +38,7 @@ public class MoedaService {
             m.setPais(novaMoeda.getPais());
             m.setAno(novaMoeda.getAno());
             m.setImagemUrl(novaMoeda.getImagemUrl());
+            m.setPreco(novaMoeda.getPreco()); // Atualização do campo preco
             return repository.save(m);
         }).orElseThrow(() -> new RuntimeException("Moeda não encontrada"));
     }

@@ -1,6 +1,7 @@
 package com.pedro.projeto_moedas.model;
 
 import jakarta.persistence.*;
+import java.math.BigDecimal;
 
 @Entity
 @Table(name = "moedas")
@@ -13,19 +14,25 @@ public class Moeda {
     private String nome;
     private String pais;
     private int ano;
+
+    @Column(name = "imagem_url") // mapeia corretamente para o campo do banco
     private String imagemUrl;
+
+    @Column(name = "preco")
+    private BigDecimal preco;
 
     // Construtor vazio
     public Moeda() {
     }
 
     // Construtor com todos os campos
-    public Moeda(Long id, String nome, String pais, int ano, String imagemUrl) {
+    public Moeda(Long id, String nome, String pais, int ano, String imagemUrl, BigDecimal preco) {
         this.id = id;
         this.nome = nome;
         this.pais = pais;
         this.ano = ano;
         this.imagemUrl = imagemUrl;
+        this.preco = preco;
     }
 
     // Getters e Setters
@@ -67,5 +74,13 @@ public class Moeda {
 
     public void setImagemUrl(String imagemUrl) {
         this.imagemUrl = imagemUrl;
+    }
+
+    public BigDecimal getPreco() {
+        return preco;
+    }
+
+    public void setPreco(BigDecimal preco) {
+        this.preco = preco;
     }
 }
