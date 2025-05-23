@@ -1,0 +1,5 @@
+com\pedro\projeto_moedas\service\MoedaService.class
+com\pedro\projeto_moedas\repository\MoedaRepository.class
+com\pedro\projeto_moedas\controller\MoedaController.class
+com\pedro\projeto_moedas\ProjetoMoedasApplication.class
+com\pedro\projeto_moedas\model\Moeda.class
