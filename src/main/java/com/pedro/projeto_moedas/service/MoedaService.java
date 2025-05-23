@@ -20,7 +20,7 @@ public class MoedaService {
         return repository.findAll();
     }
 
-    public Optional<Moeda> buscarPorId(Long id) {
+    public Optional<Moeda> buscarPorId(String id) { // trocado para String
         return repository.findById(id);
     }
 
@@ -28,17 +28,17 @@ public class MoedaService {
         return repository.save(moeda);
     }
 
-    public void deletar(Long id) {
+    public void deletar(String id) { // trocado para String
         repository.deleteById(id);
     }
 
-    public Moeda atualizar(Long id, Moeda novaMoeda) {
+    public Moeda atualizar(String id, Moeda novaMoeda) { // trocado para String
         return repository.findById(id).map(m -> {
             m.setNome(novaMoeda.getNome());
             m.setPais(novaMoeda.getPais());
             m.setAno(novaMoeda.getAno());
             m.setImagemUrl(novaMoeda.getImagemUrl());
-            m.setPreco(novaMoeda.getPreco()); // Atualização do campo preco
+            m.setPreco(novaMoeda.getPreco());
             return repository.save(m);
         }).orElseThrow(() -> new RuntimeException("Moeda não encontrada"));
     }

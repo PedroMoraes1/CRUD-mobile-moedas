@@ -25,7 +25,7 @@ public class MoedaController {
 
     // GET moeda por ID
     @GetMapping("/{id}")
-    public ResponseEntity<Moeda> buscarPorId(@PathVariable Long id) {
+    public ResponseEntity<Moeda> buscarPorId(@PathVariable String id) {
         Optional<Moeda> moeda = moedaRepository.findById(id);
         return moeda.map(ResponseEntity::ok)
                 .orElseGet(() -> ResponseEntity.notFound().build());
@@ -39,21 +39,21 @@ public class MoedaController {
 
     // PUT atualizar moeda
     @PutMapping("/{id}")
-    public ResponseEntity<Moeda> atualizar(@PathVariable Long id, @RequestBody Moeda novaMoeda) {
+    public ResponseEntity<Moeda> atualizar(@PathVariable String id, @RequestBody Moeda novaMoeda) {
         return moedaRepository.findById(id)
                 .map(moeda -> {
                     moeda.setNome(novaMoeda.getNome());
                     moeda.setPais(novaMoeda.getPais());
                     moeda.setAno(novaMoeda.getAno());
                     moeda.setImagemUrl(novaMoeda.getImagemUrl());
-                    moeda.setPreco(novaMoeda.getPreco()); // Corrigido aqui
+                    moeda.setPreco(novaMoeda.getPreco());
                     return ResponseEntity.ok(moedaRepository.save(moeda));
                 }).orElse(ResponseEntity.notFound().build());
     }
 
     // DELETE moeda
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deletar(@PathVariable Long id) {
+    public ResponseEntity<Void> deletar(@PathVariable String id) {
         if (moedaRepository.existsById(id)) {
             moedaRepository.deleteById(id);
             return ResponseEntity.noContent().build();
