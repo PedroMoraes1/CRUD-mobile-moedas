@@ -6,18 +6,18 @@ Front-end: React Native
 
 Back-end: Java com Spring Boot
 
-Banco de Dados: (Especifique aqui, por exemplo, PostgreSQL, MySQL, etc.)
+Banco de Dados: MongoDB
 
 Hospedagem da API: Render
 
 ## Funcionalidades
-📥 Cadastrar novas moedas com nome, descrição, país e imagem.
+-📥 Cadastrar novas moedas com nome, descrição, país e imagem.
 
-🔍 Visualizar detalhes de cada moeda cadastrada.
+-🔍 Visualizar detalhes de cada moeda cadastrada.
 
-✏️ Editar informações das moedas existentes.
+-✏️ Editar informações das moedas existentes.
 
-🗑️ Remover moedas da coleção.
+-🗑️ Remover moedas da coleção.
 
 ## Capturas de Tela
 (Adicione aqui imagens ou GIFs demonstrando a interface do aplicativo.)
