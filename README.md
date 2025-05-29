@@ -22,9 +22,6 @@ MongoDB
 API hospedada na Render
 
 ## 📂 Estrutura de Pastas
-plaintext
-Copiar
-Editar
 CRUD-MOBILE-MOEDAS
 ├── .expo/                     # Configurações do Expo
 ├── src/
@@ -49,6 +46,7 @@ CRUD-MOBILE-MOEDAS
 ├── package-lock.json
 ├── tsconfig.json              # Configuração TypeScript (opcional)
 └── README.md
+
 ## 📋 Funcionalidades
 - 📥 Cadastrar Moedas
 Permite inserir uma nova moeda com nome, descrição, país e imagem.
