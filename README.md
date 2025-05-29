@@ -21,8 +21,33 @@ MongoDB
 
 API hospedada na Render
 
-## 📂 Estrutura de Pastas
-<pre> ``` CRUD-MOBILE-MOEDAS ├── .expo/ # Configurações do Expo ├── src/ │ ├── assets/ │ │ └── imagens/ │ │ ├── icones/ │ │ └── moedas/ │ │ ├── placeholder.png │ │ ├── adaptive-icon.png │ │ ├── favicon.png │ │ ├── icon.png │ │ └── splash-icon.png │ ├── navigation/ # Navegação entre telas │ └── screens/ # Telas do app │ ├── adicionar.js # Tela para adicionar moeda │ ├── editar.js # Tela para editar moeda │ └── home.js # Tela principal (lista de moedas) ├── App.js # Arquivo principal do aplicativo ├── app.json # Configurações do projeto ├── index.js # Entrada principal do app ├── package.json # Dependências do projeto ├── package-lock.json ├── tsconfig.json # Configuração TypeScript (opcional) └── README.md ``` </pre>
+## 📂 Estrutura de PastasCRUD-MOBILE-MOEDAS
+├── .expo/
+├── src/
+│   ├── assets/
+│   │   └── imagens/
+│   │       ├── icones/
+│   │       └── moedas/
+│   │       ├── placeholder.png
+│   │       ├── adaptive-icon.png
+│   │       ├── favicon.png
+│   │       ├── icon.png
+│   │       └── splash-icon.png
+│   ├── navigation/
+│   └── screens/
+│       ├── adicionar.js
+│       ├── editar.js
+│       └── home.js
+├── App.js
+├── app.json
+├── App.jsx
+├── index.js
+├── package-lock.json
+├── package.json
+├── npx
+├── README.md
+└── tsconfig.json
+
 
 ## 📋 Funcionalidades
 - 📥 Cadastrar Moedas
