@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/bef9b135-f901-4896-a1ec-b4b2f7b4e250)# 💰 CRUD Mobile de Moedas
+💰 CRUD Mobile de Moedas
 Aplicativo mobile desenvolvido com React Native e Spring Boot para gerenciamento de coleções de moedas. Permite ao usuário cadastrar, editar, visualizar e remover moedas com informações como nome, descrição, país e imagem.
 
 # 🛠️ Tecnologias Utilizadas
