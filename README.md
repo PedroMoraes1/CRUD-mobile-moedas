@@ -1,4 +1,4 @@
-# 💰 CRUD Mobile de Moedas
+![image](https://github.com/user-attachments/assets/bef9b135-f901-4896-a1ec-b4b2f7b4e250)# 💰 CRUD Mobile de Moedas
 Aplicativo mobile desenvolvido com React Native e Spring Boot para gerenciamento de coleções de moedas. Permite ao usuário cadastrar, editar, visualizar e remover moedas com informações como nome, descrição, país e imagem.
 
 # 🛠️ Tecnologias Utilizadas
@@ -24,32 +24,24 @@ API hospedada na Render
 ## 📂 Estrutura de PastasCRUD-MOBILE-MOEDAS
 ```
 CRUD-MOBILE-MOEDAS
-├── .expo/
 ├── src/
-│   ├── assets/
-│   │   └── imagens/
-│   │       ├── icones/
-│   │       └── moedas/
-│   │       ├── placeholder.png
-│   │       ├── adaptive-icon.png
-│   │       ├── favicon.png
-│   │       ├── icon.png
-│   │       └── splash-icon.png
+|   ├── assets/
+│   │      ├──imagens/
+│   │        ├──icones/
+│   │        ├── moedas/   
 │   ├── navigation/
 │   └── screens/
 │       ├── adicionar.js
 │       ├── editar.js
 │       └── home.js
 ├── App.js
-├── app.json
-├── App.jsx
+├── README.md
+├── App.json
 ├── index.js
 ├── package-lock.json
 ├── package.json
-├── npx
-├── README.md
 └── tsconfig.json
-``
+```
 
 
 ## 📋 Funcionalidades
@@ -66,7 +58,8 @@ Atualiza as informações de uma moeda existente.
 Exclui moedas da coleção.
 
 ## 🖼️ Capturas de Tela
-(⚠️ Adicione aqui prints da interface do app ou GIFs demonstrativos.)
+
+
 
 ## 🚀 Instalação e Execução
 ✅ Pré-requisitos
