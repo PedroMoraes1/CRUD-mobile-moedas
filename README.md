@@ -58,7 +58,7 @@ Atualiza as informações de uma moeda existente.
 Exclui moedas da coleção.
 
 ## 🖼️ Capturas de Tela
-
+![image](https://github.com/user-attachments/assets/bef9b135-f901-4896-a1ec-b4b2f7b4e250)# 
 
 
 ## 🚀 Instalação e Execução
