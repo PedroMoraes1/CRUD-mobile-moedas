@@ -44,6 +44,32 @@ CRUD-MOBILE-MOEDAS
 └── tsconfig.json
 ```
 
+## 📂 Estrutura de PastasAPI-MOEDAS
+```
+projeto-moedas
+├── .idea
+├── src
+│   └── main
+│       ├── java
+│       │   └── com.pedro.projeto_moedas
+│       │       ├── controller
+│       │       │   └── MoedaController.java
+│       │       ├── model
+│       │       │   └── Moeda.java
+│       │       ├── repository
+│       │       │   └── MoedaRepository.java
+│       │       └── service
+│       │           ├── MoedaService.java
+│       │           └── ProjetoMoedasApplication.java
+│       └── resources
+│           └── application.properties
+├── target
+├── HELP.md
+├── README.md
+├── mvnw
+├── mvnw.cmd
+└── pom.xml
+```
 
 ## 📋 Funcionalidades
 - 📥 Cadastrar Moedas
