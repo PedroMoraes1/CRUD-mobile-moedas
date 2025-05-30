@@ -103,6 +103,7 @@ Editar
   "nome": "Real",
   "descricao": "Moeda do Brasil",
   "pais": "Brasil",
+  "preco": 10,00,
   "imagemUrl": "https://link-da-imagem.com/real.png"
 }
 ```
