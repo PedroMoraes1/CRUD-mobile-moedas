@@ -91,6 +91,7 @@ npm install
 # Inicie o app com Expo
 npx expo start
 🌐 API
+
 O back-end está hospedado em:
 https://crud-mobile-moedas.onrender.com/api/moedas
 
@@ -98,12 +99,12 @@ Exemplo de objeto moeda:
 json
 Copiar
 Editar
-{
+```{
   "nome": "Real",
   "descricao": "Moeda do Brasil",
   "pais": "Brasil",
   "imagemUrl": "https://link-da-imagem.com/real.png"
-}
+}```
 ## 👥 Contribuidores
 - Pedro Henrique Alves de Moraes
 - Isabelle Rios
