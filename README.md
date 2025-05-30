@@ -28,7 +28,8 @@ CRUD-MOBILE-MOEDAS
 |   ├── assets/
 │   │      ├──imagens/
 │   │        ├──icones/
-│   │        ├── moedas/   
+│   │        ├── moedas/
+|   ├──img/ 
 │   ├── navigation/
 │   └── screens/
 │       ├── adicionar.js
