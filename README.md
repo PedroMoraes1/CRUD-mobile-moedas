@@ -104,7 +104,8 @@ Editar
   "descricao": "Moeda do Brasil",
   "pais": "Brasil",
   "imagemUrl": "https://link-da-imagem.com/real.png"
-}```
+}
+```
 ## 👥 Contribuidores
 - Pedro Henrique Alves de Moraes
 - Isabelle Rios
