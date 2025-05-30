@@ -139,5 +139,5 @@ Editar
 - Isabelle Rios
 - Maria Júlia
 
-## 📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhe
+## 📄 Figma
+Este é o link do figma https://www.figma.com/design/x3027mL92APjLNtHRtt0jN/CRUD-Mobile-Moedas?node-id=0-1&t=NgwpLwET1DmcGv0V-1
